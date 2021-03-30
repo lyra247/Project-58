@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding-top: 60px;
+    text-align: center;
+background-color:powderblue;
+}
+
+img{
+  width:400px;      
+    margin-bottom: 20px;
+    border-radius: 20%;
+    }
+
+#bio{
+  padding: 50px;
+     background: linear-gradient(mediumpurple, lightblue, plum);
+    
+}
+
+h1{
+ font-size: 40px;
+   font-family: 'Ranchers', cursive;
+    font-weight: 300;
+    color: black;
+    
+}
+h2{
+ font-size: 30px;
+    font-family: cursive;
+    font-weight: 300;
+    color: black;
+    
+}
+p{
+ font-size: 17px;   
+font-family: fantasy; 
+    
+}
+.menu{
+  list-style: none;
+   font-family: sans-serif; 
+   position: absolute;
+    z-index: 10;
+   cursor: pointer;
+    top: 10px;
+    right:30px;
+}
+
+
+.links{
+  float: left;  
+  color: palevioletred;  
+  padding-top: 5px;  
+  padding-left: 9px;  
+  padding-right: 9px;  
+  padding-bottom: 5px;   
+ font-size: 25px;
+    }
+.links:hover{
+    background-color: mediumpurple;
+    color:plum;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+#bio{
+    font-family: inherit;
+}
